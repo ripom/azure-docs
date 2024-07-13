@@ -34,7 +34,7 @@ When accessing Azure Virtual Desktop using hybrid identities, sometimes the User
 Azure Virtual Desktop supports cloud-only identities when using [Microsoft Entra joined VMs](deploy-azure-ad-joined-vm.md). These users are created and managed directly in Microsoft Entra ID.
 
 >[!NOTE]
->You can also assign hybrid identities to Azure Virtual Desktop Application groups that host Session hosts of join type Microsoft Entra joined.
+>You can also assign hybrid identities to Azure Virtual Desktop Application groups that host Session hosts of join type Microsoft Entra joined, but ADFS authentication is not supported.
 
 ### Third-party identity providers
 
